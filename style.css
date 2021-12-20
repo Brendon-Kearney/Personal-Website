@@ -565,7 +565,7 @@ footer span{
 }
 /* footer span:hover{
     text-decoration: underline;
-} */
+} 
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
