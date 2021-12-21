@@ -1,5 +1,8 @@
 $(document).ready(function(){
     $(window).scroll(function(){
+        //gear rotate
+        $(".gear").css("transform", "rotate(" + window.pageYOffset/2 + "deg)");
+
         // sticky navbar on scroll script
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");

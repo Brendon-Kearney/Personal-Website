@@ -9,6 +9,15 @@
 html{
     scroll-behavior: smooth;
 }
+/* animated gear */
+.gear{
+    color: crimson;
+    margin: auto;
+    text-align: center;
+    width: 3200px;
+    font-size: 200px;
+    transition: all 0.75s ease;
+}
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -79,7 +88,7 @@ section .title::after{
     z-index: 999;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
-    transition: all 0.3s ease;
+    transition: all 0.75s ease;
 }
 .navbar.sticky{
     padding: 15px 0;
@@ -193,7 +202,7 @@ section .title::after{
     background: crimson;
     color: #fff;
     font-size: 25px;
-    padding: 12px 36px;
+    padding: 12px 12px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
